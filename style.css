@@ -1,0 +1,47 @@
+#submitComment{
+    padding: 10px 15px;
+    background-color: rgb(28, 120, 196);
+    color: white;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+#Commentinput {
+    resize: vertical;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 10px; 
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+
+}
+.repliesContainer{
+    margin-left: 10%;
+            width: 80%;
+                border-radius: 10px;
+                border: 1px solid #ccc;
+                padding: 10px;
+                margin-bottom: 10px;}
+#replyInput{
+        resize: vertical;
+            width: 100%;
+            max-width: 700px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: none;
+}
+.repliesContainer:hover #replyInput{
+    display: block;
+}
+.replyBtn {
+    padding: 5px 3px;
+    border: none;
+    background-color: rgb(28, 120, 196);
+    color: white;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
